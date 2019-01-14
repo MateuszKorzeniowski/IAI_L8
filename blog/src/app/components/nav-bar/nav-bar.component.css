@@ -1,0 +1,219 @@
+body
+{
+  background: grey;
+  color: #red;
+}
+
+.navbar > ul > li
+{
+  padding: 0;
+  margin:0;
+  display: inline;
+  border-right: 1px solid white;
+
+}
+
+.navbar > ul > li:first-child
+{
+  border-left: 1px solid white;
+}
+
+.navbar > ul > li > a{
+  text-decoration:none;
+  padding: 15px;
+  color:#ffffff;
+  font-size:24px;
+  padding: 10px;
+  margin: 5px;
+  transition: all 1s;
+  border-radius: 10px;
+}
+
+
+
+.navbar > ul > li:hover > a
+{
+  padding: 10px;
+  margin: 5px;
+  background:#ffffff;
+  color:#000000;
+  font-size:24px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navbar > ul
+{
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+
+.container
+{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+
+  padding: 10px;
+
+}
+
+.navbar
+{
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  background: black;
+  padding: 15px;
+}
+
+header
+{
+  background: azure;
+  width: 100%;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 30px;
+}
+
+main
+{
+  float:left;
+  width: 700px;
+  text-align: justify;
+  font-size: 18px;
+  padding: 25px;
+}
+
+.left
+{
+  float: left;
+  min-width: 75%;
+  max-width: 75%;
+  padding: 25px;
+  margin:0 auto;
+}
+
+aside
+{
+  float: left;
+  width: 200px;
+  padding: 10px;
+  margin-top:20px;
+}
+
+footer
+{
+  width: 100%;
+  background:black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  text-align:center;
+  font-size: 24px;
+}
+
+.clean
+{
+  clear: both;
+}
+
+fieldset {
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-width: -webkit-min-content;
+  border-width: 2px;
+  border-style: groove;
+  border-color: black;
+}
+legend
+{
+  width:30%;
+  text-align: center;
+}
+
+.btn
+{
+  width: 150px;
+  height: 75px;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.btn-danger
+{
+  position: relative;
+  bottom: 10px;
+  left:40%;
+}
+
+.btn-success
+{
+  position: relative;
+  bottom: 10px;
+  left:13%;
+}
+
+p
+{
+  margin: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.map-container
+{
+  background: white;
+  padding: 10px;
+}
+
+iframe
+{
+  width: 100%;
+  padding:20px 20px;
+}
+
+ul.legend >li
+{
+  display: block;
+  text-align: left;
+}
+
+ul.list > li
+{
+  text-align: left;
+}
+
+.myButton
+{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 30px;
+  z-index: 99;
+  font-size: 24px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  background-color: #50453E;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.myButton:hover
+{
+  background-color: #40342D;
+}
